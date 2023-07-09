@@ -5,14 +5,14 @@ USE employees_db;
 
 CREATE TABLE department (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(30) --to hold department name
+    name VARCHAR(30) -- to hold department name
 );
 
 CREATE TABLE role (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    title VARCHAR(30), --to hold role title
-    salary DECIMAL, --to hold role salary
-    department_id INT, --to hold reference to department role belongs to
+    title VARCHAR(30), -- to hold role title
+    salary DECIMAL, -- to hold role salary
+    department_id INT, -- to hold reference to department role belongs to
      FOREIGN KEY (department_id) REFERENCES department (id)
 );
 
