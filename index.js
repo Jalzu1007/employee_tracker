@@ -331,7 +331,7 @@ async function deleteDepartment() {
   } catch (err) {
     console.error('Error deleting department:', err);
   }
-
+  
   promptUser();
 }
 

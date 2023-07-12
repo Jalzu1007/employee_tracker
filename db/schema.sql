@@ -13,7 +13,7 @@ CREATE TABLE role (
     title VARCHAR(30), -- to hold role title
     salary DECIMAL, -- to hold role salary
     department_id INT, -- to hold reference to department role belongs to
-     FOREIGN KEY (department_id) REFERENCES department (id)
+     FOREIGN KEY (department_id) REFERENCES department (id) ON DELETE CASCADE
 );
 
 CREATE TABLE employee (
