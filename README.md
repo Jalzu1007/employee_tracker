@@ -51,7 +51,8 @@ https://github.com/Jalzu1007/employee_tracker.git
 
 Walk-through video of the Note Taker Application:
 
-[![employee_tracker](https://img.youtube.com/vi/97p-g2GcSyQ/0.jpg)](https://www.youtube.com/watch?v=97p-g2GcSyQ)
+[![employee_tracker](https://img.youtube.com/vi/7dnvO_T9bIc/0.jpg)](https://youtu.be/7dnvO_T9bIc)
+
 
 ## Credits
 
